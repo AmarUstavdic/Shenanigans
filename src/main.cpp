@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include "lexer.h"
 
 int main(int argc, char** argv) {
     if (argc != 2) {
@@ -20,7 +21,7 @@ int main(int argc, char** argv) {
         contents_stream << input.rdbuf();
         contents = contents_stream.str();
     }
-
+    
 
     std::cout << contents << std::endl;
 

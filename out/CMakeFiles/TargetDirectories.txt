@@ -1,0 +1,3 @@
+/home/delta/Projects/Shenanigans/out/CMakeFiles/sng.dir
+/home/delta/Projects/Shenanigans/out/CMakeFiles/edit_cache.dir
+/home/delta/Projects/Shenanigans/out/CMakeFiles/rebuild_cache.dir

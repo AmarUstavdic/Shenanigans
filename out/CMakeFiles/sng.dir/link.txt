@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sng.dir/src/main.cpp.o CMakeFiles/sng.dir/src/lexer.cpp.o -o sng 

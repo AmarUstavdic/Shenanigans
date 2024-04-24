@@ -1,7 +1,12 @@
-cmake_minimum_required(VERSION 3.0)
-project(Shenanigans)
+cmake_minimum_required(VERSION 3.22.1)
+project(sng)
 
-file(GLOB_RECURSE SOURCES "src/*.cpp")
-file(GLOB_RECURSE HEADERS "include/*.hpp")
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+include_directories(include)
+
+
+add_executable(${PROJECT_NAME} 
+    src/main.cpp
+    src/lexer.cpp
+)
